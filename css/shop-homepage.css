@@ -1,0 +1,28 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+  background: black;
+  overflow: none;
+}
+
+.side-bar{
+	color: #686c71;
+}
+
+.side-bar .card-header{
+	background: #343a40;
+}
+
+.side-bar .panel a{
+	color: white;
+}
+
+.content-page{
+	height: 100vh;
+  	overflow: hidden;
+  	overflow-y: scroll; 
+}
