@@ -179,8 +179,14 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
+        <hr>
 
-        <div class="row">
+        <div class="container">
+          <img class="d-block img-fluid" src="images/ad2.gif">
+        </div>
+
+        <hr>
+        <div class="row games">
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
