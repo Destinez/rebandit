@@ -5,8 +5,12 @@
  */
 body {
   padding-top: 56px;
-  background: black;
+  background: #e7ebee;
   overflow: none;
+}
+
+.navbar{
+	background: #343a40 !important;
 }
 
 .side-bar{
@@ -21,8 +25,12 @@ body {
 	color: white;
 }
 
-.content-page{
+.side-bar .panel{
+	outline: none;
+}
+
+/*.content-page .games{
 	height: 100vh;
   	overflow: hidden;
   	overflow-y: scroll; 
-}
+}*/
