@@ -131,6 +131,15 @@
 
         </div> <!-- card -->
         <hr>
+        <div class="card" >
+            <button class="btn btn-primary btn-lg text-center" onclick="location.href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ASVW8M2VYHZ6L&source=url';">
+          Donate to us
+        </button>
+          
+        </div>
+        
+
+        <hr>
         <h2>Sponsored Games</h2>
 
         <div class="">
@@ -148,6 +157,18 @@
               </div>
             </div>
           </div>
+
+          <hr>
+          <div class="container">
+            <img class="img-fluid" src="images/ad4.gif">
+          </div>
+          <hr>
+
+          <div class="container">
+            <img class="img-fluid" src="images/ad4.gif">
+          </div>
+          <hr>
+
       </div>
       <!-- /.col-lg-3 -->
 
@@ -286,13 +307,36 @@
 
         </div>
         <!-- /.row -->
-
+        
       </div>
+        
+
+
+
       <!-- /.col-lg-9 -->
 
     </div>
     <!-- /.row -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="card " style="background: #e7ebee">
+          <form class="form-group text-center card-body" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <!-- <img class="img-fluid" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"> -->
+            <input type="hidden" name="cmd" value="_s-xclick" />
+            <input type="hidden" name="hosted_button_id" value="ASVW8M2VYHZ6L" />
+            <input type="image" class="img-fluid" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+            <img alt="" border="0" src="https://www.paypal.com/en_NG/i/scr/pixel.gif" width="1" height="1" />
+          </form>
 
+          </div>
+        </div>
+        <div class="col-lg-9">
+          <img class="d-block img-fluid" src="images/ad2.gif">
+        </div>
+      </div>
+          
+        </div><hr>
   </div>
   <!-- /.container -->
 
@@ -305,18 +349,39 @@
   style="position:absolute; top:0; left: 0"></iframe>
 </div> -->
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick" />
-<input type="hidden" name="hosted_button_id" value="ASVW8M2VYHZ6L" />
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-<img alt="" border="0" src="https://www.paypal.com/en_NG/i/scr/pixel.gif" width="1" height="1" />
-</form>
-
+  <!-- <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Blood of Jesus!!!</p>&mdash; Ola (@IncussOla) <a href="https://twitter.com/IncussOla/status/1251651044238639106?ref_src=twsrc%5Etfw">April 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  -->
   <!-- Footer -->
+
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; reBandit 2020</p>
+        <div class="row">
+          <div class="col-lg-2 text-center">
+            About
+          </div>
+
+          <div class="col-lg-2 text-center">
+            Privacy 
+          </div>
+
+          <div class="col-lg-4">
+            <p class="m-0 text-center text-white">
+             reBandit &copy; 2020
+            </p>
+          </div>
+
+          <div class="col-lg-2 text-center">
+            Terms of Use
+          </div>
+
+          <div class="col-lg-2 text-center">
+            Blog
+          </div>
+        </div>
+      
+
     </div>
+      
+     
     <!-- /.container -->
   </footer>
 
