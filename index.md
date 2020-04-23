@@ -15,6 +15,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/shop-homepage.css" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/fontawesome/css/all.css">
 
 </head>
 
@@ -23,7 +24,10 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">reBandit</a>
+
+      <a class="navbar-brand" href="#">
+          <img class="img-fluid" width="100px" height="40px" src="images/logo1.png">
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -221,6 +225,7 @@
               </div>
               <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                <span class="badge-dark badge-pill float-right">Gaming</span>
               </div>
             </div>
           </div>
@@ -237,6 +242,7 @@
               </div>
               <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                <span class="badge-dark badge-pill float-right">Tech</span>
               </div>
             </div>
           </div>
@@ -340,27 +346,39 @@
   </div>
   <!-- /.container -->
 
-<!--   <div id="Container"
- style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
- <iframe id="ViostreamIframe"
-  width="100%" height="200%"
-  src="https://wanted5games.com/games/html5/funny-hair-salon-new-en-s-iga-cloud/index.html?pub=10"
-  frameborder="0" allowfullscreen=""
-  style="position:absolute; top:0; left: 0"></iframe>
-</div> -->
-
-  <!-- <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Blood of Jesus!!!</p>&mdash; Ola (@IncussOla) <a href="https://twitter.com/IncussOla/status/1251651044238639106?ref_src=twsrc%5Etfw">April 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  -->
   <!-- Footer -->
+
 
   <footer class="py-5 bg-dark">
     <div class="container">
+      <div class="row">
+          <div class="col-lg-2 text-center">
+            
+          </div>
+          
+          <div class="col-lg-8 text-white newsletter">
+             <label class="control-label " for="newsletter">
+                Get the latest updates. Subscribe To Our Newsletter Now
+            </label>
+            <div class="input-container">
+              <i class="fa fa-2x fa-envelope icon"></i>
+              <input class="input-field" type="text" placeholder="Enter Email" name="newsletter">
+              <input class="subscribe" type="submit" name="submit" value="Subscribe">
+            </div>
+          </div>
+          
+          <div class="col-lg-2 text-center">
+            
+          </div>
+      </div>
+
         <div class="row">
           <div class="col-lg-2 text-center">
             About
           </div>
 
           <div class="col-lg-2 text-center">
-            Privacy 
+            Privacyb 
           </div>
 
           <div class="col-lg-4">
