@@ -4,21 +4,27 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
  */
 body {
-  padding-top: 56px;
+  padding-top: 43px;
   background: #e7ebee;
   overflow: none;
+  color: #010d19;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 }
 
-.navbar{
-	background: #343a40 !important;
+.navbar, .bg-dark{
+	background: #010d19 !important;
 }
 
 .side-bar{
-	color: #686c71;
+	color: #010d19;
 }
 
 .side-bar .card-header{
-	background: #343a40;
+	background: #010d19;
+}
+
+.side-bar .panel .panel-body a{
+	color: #010d19;
 }
 
 .side-bar .panel a{
@@ -28,6 +34,114 @@ body {
 .side-bar .panel{
 	outline: none;
 }
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+
+}
+
+.icon {
+padding: 10px;
+background: #010d19;
+color: white;
+min-width: 50px;
+text-align: center;
+border: 3px white solid;
+border-radius: 10px 0px 0px 10px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 3px white solid;
+
+ 
+}
+
+.input-field:focus {
+  border: 3px solid #e7ebee;
+  border-radius:  10px;
+  transition: 1s;
+}
+
+.newsletter label{
+	font-size: 1.5rem;
+
+}
+
+.newsletter .subscribe{
+	border-radius: 0px 10px 10px 0px;
+	border: 3px white solid;
+	color: white;
+	background: #343a40;
+}
+
+.newsletter .subscribe:hover{
+	color: #343a40;
+	background: #fff;
+	transition: all 0.5s;
+}
+
+footer, footer a{
+	color: white;
+}
+
+.social-icons .fa-facebook-f{
+	padding: 10px;
+	background: #4268b3;
+	color: white;
+	min-width: 50px;
+	text-align: center;
+	border: 3px white solid;
+	border-radius: 10px 0px 0px 10px;
+}
+
+.social-icons .fa-twitter{
+	padding: 10px;
+	background: #43bceb;
+	color: white;
+	min-width: 50px;
+	text-align: center;
+	border: 3px white solid;
+	border-radius: 4px;
+}
+
+.social-icons .fa-pinterest{
+	padding: 10px;
+	background: #e42b33;
+	color: white;
+	min-width: 50px;
+	text-align: center;
+	border: 3px white solid;
+	border-radius: 0px 10px 10px 0px;
+}
+
+.social-icons .fa-facebook-f:hover, .social-icons .fa-pinterest:hover, .social-icons .fa-twitter:hover{
+	background: #010d19;
+	transition: 0.3s ease-in;
+}
+
+
+
+
+/* Set a style for the submit button */
+/*.btn {
+  background-color: ;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}*/
+/*
+.btn:hover {
+  opacity: 1;
+}*/
 
 /*.content-page .games{
 	height: 100vh;
