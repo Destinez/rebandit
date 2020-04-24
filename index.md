@@ -8,14 +8,13 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>reBandit - World Premium Gaming Site</title>
+  <title>reBandit - the tech way</title>
 
   <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="vendor/fontawesome/css/fontawesome.css"> -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
   <link href="css/shop-homepage.css" rel="stylesheet">
-  <link rel="stylesheet" href="vendor/fontawesome/css/all.css">
 
 </head>
 
@@ -25,7 +24,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
 
-      <a class="navbar-brand" href="#">
+      <a class="navbar-bcrand" href="#">
           <img class="img-fluid" width="100px" height="40px" src="images/logo1.png">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,12 +40,6 @@
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
         </ul>
       </div>
     </div>
@@ -59,7 +52,7 @@
 
       <div class="col-lg-3 side-bar">
 
-        <h2 class="my-4">Home to the World's Top Online Games</h2>
+        <h2 class="my-4">reBandit <br> ...the tech way</h2>
 
         <div class="card">
           <div id="accordion">
@@ -74,7 +67,12 @@
               <div id="collapseOne" class="collapse show" data-parent="#accordion">
                 <div class="panel-body">
                   <div class="list-group">
-                    <div class="list-group-item">Tennis 3D</div>
+                    <div class="list-group-item">
+                      <a href="#">How To Use Twitter Hashtags</a>
+                    </div>
+                    <div class="list-group-item">
+                      <a href="#">How To Use Twitter Hashtags</a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -83,14 +81,18 @@
             <div class="panel">
               <a class="card-link" data-toggle="collapse" href="#collapseFour">
                 <div class="card-header">
-                  <h5>Top Featured Games</h5>
+                  <h5>Top Featured Posts</h5>
                 </div>
               </a>
               
               <div id="collapseFour" class="collapse hidden" data-parent="#accordion">
                 <div class="panel-body">
                   <div class="list-group">
-                    <div class="list-group-item">Tennis 3D</div>
+                    <div class="list-group-item">
+                      <a href="#">
+                        REVIEW: Is The Apple iPhone 11 Worth It?
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -99,14 +101,16 @@
             <div class="panel">
               <a class="card-link" data-toggle="collapse" href="#collapseTwo">
                 <div class="card-header">
-                  <h5>Popular Games</h5>
+                  <h5>Popular</h5>
                 </div>
               </a>
               
               <div id="collapseTwo" class="collapse hidden" data-parent="#accordion">
                 <div class="panel-body">
                   <div class="list-group">
-                    <div class="list-group-item">Tennis 3D</div>
+                    <div class="list-group-item">
+                      <<a href="#">How To Build a Simple CSS Animation</a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -115,17 +119,17 @@
             <div class="panel">
               <a class="card-link" data-toggle="collapse" href="#collapseThree">
                 <div class="card-header">
-                  <h5>Game Categories</h5>
+                  <h5>Categories</h5>
                 </div>
               </a>
               
               <div id="collapseThree" class="collapse hidden" data-parent="#accordion">
                 <div class="panel-body">
                   <div class="list-group">
-                    <div class="list-group-item">Classic</div>
-                    <div class="list-group-item">Sports</div>
-                    <div class="list-group-item">Board</div>
-                    <div class="list-group-item">Racing</div>
+                    <div class="list-group-item"><a href="#">Tech</a></div>
+                    <div class="list-group-item"><a href="#">Coding</a></div>
+                    <div class="list-group-item"><a href="#">Social Media</a></div>
+                    <div class="list-group-item"><a href="#">HTML5 Games</a></div>
                   </div>
                 </div>
               </div>
@@ -211,8 +215,10 @@
         </div>
 
         <hr>
-        <div class="row games">
-
+        <div class="row">
+          <div class="col-12 text-center">
+            <h3>Tech</h3>
+          </div>
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
               <a href="#"><img class="card-img-top" src="images/slide1.jpeg" alt=""></a>
@@ -261,8 +267,15 @@
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
               </div>
             </div>
-          </div>
+          </div><hr>
 
+          <div class="container">
+          <img class="d-block img-fluid" src="images/ad2.gif"><hr>
+        </div>
+
+          <div class="col-12 text-center">
+            <h3>Social Media</h3>
+          </div>
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
               <a href="#"><img class="card-img-top" src="images/slide2.jpg" alt=""></a>
@@ -370,29 +383,41 @@
           <div class="col-lg-2 text-center">
             
           </div>
+          
       </div>
 
         <div class="row">
           <div class="col-lg-2 text-center">
-            About
+            <a href="">About</a> 
           </div>
 
           <div class="col-lg-2 text-center">
-            Privacyb 
+            <a href="">Privacy</a> 
           </div>
 
-          <div class="col-lg-4">
-            <p class="m-0 text-center text-white">
+          <div class="col-lg-4 ">
+            <div class="social-icons text-center">
+                <a href="#">
+                  <i class="fa fa-facebook-f icon"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-twitter icon"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-pinterest icon"></i>
+                </a>
+            </div>
+            <h4 class="m-0 text-center text-white">
              reBandit &copy; 2020
-            </p>
+            </h4>
           </div>
 
           <div class="col-lg-2 text-center">
-            Terms of Use
+            <a href="">Terms of Use</a> 
           </div>
 
           <div class="col-lg-2 text-center">
-            Blog
+            <a href="">Contact</a> 
           </div>
         </div>
       
@@ -405,6 +430,7 @@
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
+  <!-- <script src="vendor/fontawesome/js/al.js"></script> -->
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
