@@ -4,19 +4,47 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
  */
 body {
-  padding-top: 43px;
-  background: #e7ebee;
+  padding-top: 60px;
+  background-image: linear-gradient(to bottom right,#e7ebee, #fff);
+  /*background: #e7ebee;*/
   overflow: none;
   color: #010d19;
+  font-size: 14px !important;
+  line-height: 20px;
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+a{
+	text-decoration: none;
+	outline: none;
+
+}
+a:hover{
+	text-decoration: none;
+	outline: none;
+	color: blue;
 }
 
 .navbar, .bg-dark{
 	background: #010d19 !important;
 }
 
+.carousel-caption{
+	position: relative;
+	left: auto;
+	right: auto;
+	color: #0f2c48;
+}
+.carousel-indicators{
+	bottom: 111px;
+}
+.carousel-caption:hover{
+	color: #000;
+}
+
 .side-bar{
 	color: #010d19;
+	border-right: 1px solid #c9d1d7;
 }
 
 .side-bar .card-header{
@@ -77,12 +105,13 @@ border-radius: 10px 0px 0px 10px;
 	border-radius: 0px 10px 10px 0px;
 	border: 3px white solid;
 	color: white;
-	background: #343a40;
+	background: #010d19;
 }
 
 .newsletter .subscribe:hover{
 	color: #343a40;
 	background: #fff;
+	border-left: 3px solid #010d19;
 	transition: all 0.5s;
 }
 
@@ -91,7 +120,7 @@ footer, footer a{
 }
 
 .social-icons .fa-facebook-f{
-	padding: 10px;
+	padding: 8px;
 	background: #4268b3;
 	color: white;
 	min-width: 50px;
@@ -101,7 +130,7 @@ footer, footer a{
 }
 
 .social-icons .fa-twitter{
-	padding: 10px;
+	padding: 8px;
 	background: #43bceb;
 	color: white;
 	min-width: 50px;
@@ -111,7 +140,7 @@ footer, footer a{
 }
 
 .social-icons .fa-pinterest{
-	padding: 10px;
+	padding: 8px;
 	background: #e42b33;
 	color: white;
 	min-width: 50px;
@@ -125,6 +154,30 @@ footer, footer a{
 	transition: 0.3s ease-in;
 }
 
+.content-page{
+	background: #fff;
+}
+
+.post-content{
+	height: 100%;
+	/*background: #fff;*/
+}
+
+
+.post-content .post-body{
+
+	font-size: 16px;
+	font-family: "ff-dagny-web-pro", helvetica, sans-serif;
+	font-style: normal;
+	line-height: 1.5;
+}
+
+@media only screen and (min-width: 990px){
+.post-content{
+	/*border-right: 1px solid #c9d1d7;*/
+	height: 100%;
+}
+}
 
 
 
